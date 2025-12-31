@@ -85,6 +85,8 @@ Once you reach there, start solving the easy bugs OR bugs for beginners and subm
   </tr>
 </table>
 
+* Visit [Github:firstcontributions](https://www.devdisplay.org) and make your first contribution just by adding profile.
+Or, you can also visit...
 * Visit [Github:firstcontributions](https://github.com/firstcontributions/first-contributions) and follow the instructions.
 * Visit [firsttimersonly.com](https://www.firsttimersonly.com) and follow the instructions.
 

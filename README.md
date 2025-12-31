@@ -67,6 +67,24 @@ Once you reach there, start solving the easy bugs OR bugs for beginners and subm
 
 **If you want to make your first contribution without getting involved with the organization members, then there is a way.**
 
+<table align="center" width="100%" style="border: 1px solid #444; border-radius: 12px; background-color: #f9f9f9;">
+  <tr>
+    <!-- Left Side -->
+    <td align="center" style="padding: 20px; width: 70%;">
+      <p><strong>Make Your First Open Source Contribution By Adding Profile</p>
+      <img src="https://www.devdisplay.org/DDColorLOGO.png" alt="DevDisplay Logo" height="40" />
+      <br><br>
+      <a href="https://www.devdisplay.org/" target="_blank">
+        <img src="https://img.shields.io/badge/Add%20Your%20Profile-007BFF?style=for-the-badge&logo=devdotto&logoColor=white" alt="Add Your Profile"/>
+      </a>
+    </td>
+    <!-- Right Side (Logo Icon) -->
+    <td align="center" style="padding: 20px; width: 30%;">
+      <img src="https://www.devdisplay.org/DevDisplay%20ICON.png" alt="Logo" height="80" />
+    </td>
+  </tr>
+</table>
+
 * Visit [Github:firstcontributions](https://github.com/firstcontributions/first-contributions) and follow the instructions.
 * Visit [firsttimersonly.com](https://www.firsttimersonly.com) and follow the instructions.
 

@@ -1,4 +1,4 @@
-# The Beginners Guide to decode Google Summer of Code (GSoC) 
+# The Beginners Guide to Google Summer of Code (GSoC) 
 
 ![GSoC Logo](gsoclogo.svg)
 

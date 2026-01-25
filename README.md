@@ -3,14 +3,15 @@
 ![GSoC Logo](gsoclogo.svg)
 
 ## Introduction
-This is the beginner's guide to Google Summer of Code (GSoC). The Google Summer of Code is an annual global program sponsored and managed by Google. The program focuses on bringing more student developers into open source project development. In this program, the students work with an Open source organization under the guidance of mentors (selected organization members) on a 3-month programming project in Summers. 
+Google Summer of Code (GSoC) is a global program sponsored and managed by Google. Its primary goal is to introduce students and beginners to open source software development. During the program, contributors work with an open-source organization under the guidance of experienced mentors on a structured three-month coding project. Contributors who successfully complete the program receive a stipend from Google.
 
 ## Motivation
-Many students (including my college juniors) reach out to me on various social media platforms to ask queries regarding GSoC. 
-So, I was writing a blog post that could provide them with the information and resources regarding GSoC in one place. 
-Then I thought to create this repo so that other knowledgeable people can also contribute to the content and help students all around the world.
+Many students—especially college juniors—frequently reach out with questions such as:
+* What is GSoC?
+* Am I eligible?
+* How do I start preparing?
 
-In this repo, I'll try to provide you with accurate information, resources and examples so that it helps you to get into GSoC.
+This guide was created to bring all essential information and resources into one place, making it easier for beginners around the world to understand and prepare for GSoC. In this repo, I'll try to provide you with accurate information, resources and examples so that it helps you to get into GSoC.
 
 ## Table of Contents
 * [What is Open Source](#what-is-open-source)
@@ -33,68 +34,40 @@ In this repo, I'll try to provide you with accurate information, resources and e
 * [Terminologies](#terminologies)
 
 ## What is Open Source
-The term Open Source means the source code of the software is freely available to its users, and anyone can modify it. Open Source software can also be redistributed after modifying the original software. The Open Source Software are usually available to the users for free, and this software has no licensing fee or other restrictions as they use [open source licenses](https://en.wikipedia.org/wiki/Open-source_license). To know the detailed definition of Open Source, you can visit this [link - opensource.org](https://opensource.org/osd).
-
-A few examples of open-source software which you might be using daily are:
-
-* [Mozilla Firefox web browser](https://www.mozilla.org/en-US/firefox/) -  It has 665,020 commits made by 7,369 contributors representing 20,505,182 lines of code. [Reference](https://www.openhub.net/p/firefox)
-* [VLC media player](https://www.videolan.org/index.html) - It has 82,544 commits made by 524 contributors and has 50 releases. [Reference](https://github.com/videolan/vlc)
-* Almost all the Linux distributions.
+Open source software is software whose source code is publicly available. Anyone can:
+* View the code
+* Modify it
+* Redistribute it (under the rules of the license)
+Common Examples of Open Source Software:
+* Mozilla Firefox
+* VLCMedia Player
+* Linux distributions
 
 ### Why Should we Care
 **Why Should we care if the software is open source?**
-
-As the source code of open source software is freely available. Then there is a negligible chance that the software is not respecting the user privacy. This means that the software can't do something like this [These 6 popular browser extensions are selling your data](https://www.digitaltrends.com/news/popular-browser-extensions-are-selling-your-data/) and this [Uninstall These Eight Browser Extensions That Stole Data from Millions](https://lifehacker.com/uninstall-these-eight-browser-extensions-that-stole-dat-1836539093).
-
-However, this does not mean that open source software is more secure than closed source software. As in the case of open-source, the code is freely available so the threat actor can easily find vulnerabilities in it when compared to it being a closed source. However, almost all of the popular open-source software is developed by the "best of the brains" on earth.
-
-There is another reason we should care about this software, as most of these software's are created and maintained by developers who don't get paid for anything or organizations which rely on donations to keep their projects alive. This software is not created to earn money and make profits; instead, they are created to help/ease the lives of other people. To understand this better, you should have a look at the [History of Firefox](https://itsfoss.com/history-of-firefox/).
-
-The Open source projects benefit users in the way that they are free, can be modified and redistributed (but to modify any software one should know it better, not everyone can modify a software), provide flexibility. These projects also benefit large corporations, eg. Microsoft edge is based on Chromium an open-source browser. These corporations can use the source code of open source software without any restrictions, license issues or copyright infringement. 
+1. Transparency – Public code reduces the risk of hidden malicious behavior
+2. Community-driven – Built and maintained by developers worldwid
+3. Free and Flexible – Usually free to use and highly customizable
+4. Learning Opportunity – Real-world experience on production-level software
+Many large companies also rely on open source software—for example, Microsoft Edge is based on Chromium. 
 
 ### How to make a contribution
-Contributing to open source helps the contributor learn and gain experience about the language, product OR skill. However, before trying to contribute to open source, you have to learn a few elementary skills. E.g., git, GitHub, a programming language (not necessary for everyone, but essential for GSoC aspirants), basic knowledge of IRC(Internet Relay Chat), Basic knowledge of Bug tracking tools.
+Before contributing, you should be familiar with:
+* Git and GitHub
+* At least one programming language
+* Bug tracking tools
+* Community communication platforms (Slack, IRC, GitHub Issues)
+  
+ ### Steps to Start Contributing:
+1. Understand the project and its goals
+2. Join the project’s community
+3. Look for beginner-friendly issues
+4. Fix bugs or improve documentation
+5. Submit a Pull Request (PR)
 
-Reference to learn about [git and github](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners).
-
-The best way to contribute to an open-source project is by getting to know the project and then finding a mentor (who may be an existing contributor to the project). The mentor helps you know the project better and guides you through it i.e., which bugs you should work on, how to fix a particular bug, how to submit your patch <sup>[1]</sup> (following the organization contribution guidelines). Working with a mentor helps you a lot. Moreover, if your mentor belongs to an organization that gets selected for GSoC, then you'll have the edge over other participants who are trying to get into GSoC.
-
-If you are unable to find a mentor, then you have to join the project community which can be on IRC(Internet Relay Chat), Slack, Gitter, etc. For Example, the project community of [The Libreswan Project](https://libreswan.org/wiki/IRC) is on IRC. Then you can ask a question related to the project or organization. However, don't ask the too obvious question. By Obvious question, I mean the question which can be quickly answered by reading about the project on the organization website or project README.md. E.g. "What does this project do?".
-
-Once there, you could ask questions related to bugs for beginners, etc. Usually, the organization members take the time to respond to such questions. So, after asking the question, wait for 24-48 hours (Keeping in mind the timezone difference).
-
-Once you reach there, start solving the easy bugs OR bugs for beginners and submit your patch (or pull request).
-
-**If you want to make your first contribution without getting involved with the organization members, then there is a way.**
-
-<table align="center" width="100%" style="border: 1px solid #444; border-radius: 12px; background-color: #f9f9f9;">
-  <tr>
-    <!-- Left Side -->
-    <td align="center" style="padding: 20px; width: 70%;">
-      <p><strong>Make Your First Open Source Contribution By Adding Profile</p>
-      <img src="https://www.devdisplay.org/DDColorLOGO.png" alt="DevDisplay Logo" height="40" />
-      <br><br>
-      <a href="https://www.devdisplay.org/" target="_blank">
-        <img src="https://img.shields.io/badge/Add%20Your%20Profile-007BFF?style=for-the-badge&logo=devdotto&logoColor=white" alt="Add Your Profile"/>
-      </a>
-    </td>
-    <!-- Right Side (Logo Icon) -->
-    <td align="center" style="padding: 20px; width: 30%;">
-      <img src="https://www.devdisplay.org/DevDisplay%20ICON.png" alt="Logo" height="80" />
-    </td>
-  </tr>
-</table>
-
-* Visit [www.devdisplay.org](https://www.devdisplay.org) and make your first contribution just by adding profile.
-
-Or, you can also visit...
-
-* Visit [Github:firstcontributions](https://github.com/firstcontributions/first-contributions) and follow the instructions.
-* Visit [firsttimersonly.com](https://www.firsttimersonly.com) and follow the instructions.
-
-You can find various such repositories on GitHub or GitLab with a simple web search.
-
-There is a guide on [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/) where you can find a detailed description of everything.
+If you are completely new, you can start with:
+* firstcontributions on GitHub
+* firsttimersonly.com
 
 ### Difference between Open Source, Freeware and Other Softwares
 * **Open Source Software** - The source code of these software's is freely available to its users, and anyone can modify and redistribute it. This software use open source licenses which don't have any licensing fee. E.g., Mozilla Firefox web browser.
@@ -104,31 +77,41 @@ There is a guide on [How to Contribute to Open Source](https://opensource.guide/
 * **Proprietary software** - These are the software's that are not free to use, and their source code is protected with proprietary rights, license, and copyright. The user needs to pay a specific amount to use the software. They often have limitations on their use; e.g., it can be installed only on one PC. This software is also called closed-source software. E.g., Microsoft Office.
 
 ## What is git and GitHub
-Git is an open-source version control system. Its main aim is to handle various kinds of projects with speed and efficiency.
-
-GitHub is a web-based hosting service for version control using git.
+* Git is an open-source version control system that tracks changes in code
+* GitHub is a hosting platform for Git repositories
+  
+## Benefits of Version Control Systems:
+* Track and revert changes
+* Work efficiently in teams
+* Maintain a clear history of code updates
 
 ### Version control systems
 **What are version control systems?**
-
 The version control system is a category of software tools that keeps track of changes done to a file/files over time.
-
 The main benefit it provides is that at any time we can view/revert to any available versions of a file while other benefits are branching, merging, and traceability.
 
 To read about version control systems in detail, visit [Getting Started about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) or [What is version control](https://www.atlassian.com/git/tutorials/what-is-version-control).
 
 ## What is Google Summer of Code
-Google Summer of Code (GSoC) is an annual global program sponsored and managed by Google. The program focuses on bringing more student developers into open source project development. In this program, the students work with an Open source organization under the guidance of mentors (selected organization members) on a 3-month programming project in Summers. In this program, Google also awards stipends to students in 3 rounds or evaluations. The amount of Stipend depends on students geographical location. 
 
-The whole program is divided into 3 evaluations or coding stages. Students plan & code for 1st month and then mentors review their work and provide their evaluation feedback and status to Google. The evaluation feedback and status(Passed/Failed) is then provided to the student on her dashboard. The students also submit the evaluation of their mentor, but those are just a few questions related to the project and the mentor's performance. This whole process happens 3 times, and then the results are announced by Google.
+GSoC is a structured program where contributors:
+* Work on an open-source project
+* Are guided by mentors
+* Undergo three evaluation phases
+* Receive stipends after successful evaluations
 
 ### Eligibility criteria
 
+To participate in GSoC, you must:
+* Be at least 18 years old
+* Be a student or a beginner in open source
+* Not have completed GSoC more than two times previously
+* GSoC has been open to non-students since 2023.
+ 
 **UPDATE:** Google recently announced that starting in 2023, GSoC is being opened to contributors new to open source software development (and not just to students anymore). **[Official blog post announcing the changes -  Get ready for Google Summer of Code 2023!](https://opensource.googleblog.com/2022/11/get-ready-for-google-summer-of-code-2023.html)**.
 
 
 #### **Requirements** - To participate in the program, a GSoC Contributor must:
-
 1. be eighteen (18) years of age or older upon registration for the Program;
 2. for the duration of the Program, be eligible to work in the country in which they reside;
 3. not be an Organization Administrator or Mentor in the Program; and
@@ -136,7 +119,6 @@ The whole program is divided into 3 evaluations or coding stages. Students plan 
 
 
 #### **Ineligible Individuals** - A GSoC Contributor may not participate in the Program if:
-
 
 1. They are:
 	1. a resident of a United States embargoed country;
@@ -153,6 +135,14 @@ The whole program is divided into 3 evaluations or coding stages. Students plan 
 To know the complete rules visit the [GSoC Rules Page](https://summerofcode.withgoogle.com/rules/).
 
 ### Am I good Enough
+
+If you:
+* Have basic programming knowledge
+* Understand Git and GitHub
+* Are willing to learn and adapt
+* Then you are good enough.
+
+GSoC is designed for learners, not experts.
 If you are familiar with the technologies mentioned in the section - [How to make a contribution](#how-to-make-a-contribution), have experience contributing to open source and know how to program, then you are good to go.
 
 There are various other skills required to plan for the project and complete the project. However, you'll learn them on the way.
@@ -161,19 +151,20 @@ There is more information available on the context at [GSoC Guides](https://goog
 
 ### Benefits of GSoC
 There are various benefits of completing GSoC.
+* 🌍 Global recognition
+* 💰 Competitive stipend
+* 🤝 Strong professional network
+* 🧠 Hands-on industry experience
+* 👕 Official GSoC swag
+* 👨‍🏫 Opportunity to become a mentor in the future
 
 * The recognition: GSoC is recognized worldwide, so when applying for jobs you'll get an advantage. However, GSoC students are more preferred by Startups than well-established organizations because, in startups like GSoC, you have to learn new skills and technologies very fast and become good at them.
 
 * The network: After completing GSoC you now have many connections which help you and can provide recommendations when needed.
-
 * The Stipend: They pay well.
-
 * The referral: After completing the program you are given a one-time referral which you can use within 6 years for any job at Google.
-
 * The Exposure: When working on the project with experienced developers, you get to learn a lot and get the industry's exposure.
-
 * The Swag: What do developers like more than swag or goodies. You'll get a GSoC T-shirt and a certificate.
-
 * Chance to Mentor: You can also be a mentor the next time or in GCI by Google.
 
 ### Required Skills
@@ -200,6 +191,12 @@ The most common mistake students make in this stage is that they limit their sea
 
 **Why should you choose a project based on your interest?**
 
+Do not choose a project only based on the programming language.
+1. Instead, choose a project based on your interest, because:
+2. Languages can be learned, interest cannot be forced
+3. Genuine interest leads to a stronger proposal
+
+Interest helps you stay motivated during difficult phases
 There are two reasons for this:
 1. If you know, programming, then the language should not be a barrier in selecting the projects. You should be adaptive and fast learners, and these skills matter in GSoC.
 2. It will help you in drafting a good proposal. If you are interested in the project, then you'll learn a lot about it and will explore it. However, if you select a project based on language, then you'll do the necessary required stuff and that so without much interest. 
@@ -223,9 +220,13 @@ I had written a blog post describing my experience when I was in the stage of se
 ### Understanding the Project
 Once you have completed Stage 1 ([Selecting the Project and Organization](#selecting-the-project-and-organization)), then the next thing is to understand the project, organization, and development technologies used by the organization.
 
-To achieve this aim you can read about the organization and its projects on their website or repositories or the web. Once you've gathered all the necessary knowledge about the organization and its projects, then gather as much knowledge as possible about the project you want to contribute. You can do this by asking a sensible question about the project to the organization members/Admins, once you've done this start contributing to the project. To make your first contributions, you should fix easy bugs in the project. 
+Once you shortlist an organization:
+* Study its previous GSoC projects
+* Read documentation and repositories
+* Communicate with mentors and community members
+* Start contributing by fixing beginner-level issues
 
-If your project is new and hasn't been started yet, then it's better to learn about it as much as you can, the organization members can help you with it. This thing happened to me in GSoC 2018, my project wasn't started, and the GSoC task was to build it. I gather information about it as much as I can and then drafted the project proposal. During the process, I was continuously asking questions and clearing my doubts about the project by asking them to the organization Admin. You can also contribute to other organization projects if it helps in GSoC, ask the organization members about it.
+Early contributions significantly improve your chances of selection.If your project is new and hasn't been started yet, then it's better to learn about it as much as you can, the organization members can help you with it. This thing happened to me in GSoC 2018, my project wasn't started, and the GSoC task was to build it. I gather information about it as much as I can and then drafted the project proposal. During the process, I was continuously asking questions and clearing my doubts about the project by asking them to the organization Admin. You can also contribute to other organization projects if it helps in GSoC, ask the organization members about it.
 
 I had written a blog post about the same. [GSoC - Initial phase and getting selected](https://therishabh.in/gsoc_initial_phase_and_getting_selected/)
 
@@ -254,6 +255,21 @@ If you get selected then you'll be able to see various details and options in th
 If you are not selected for the project, introspect and try to know the reasons for your failure and ask yourself a question "Why do you want to be a Google Summer of Code Student?". Learn from those failures and try again.
 
 Remember one thing "Success consists of going from failure to failure without loss of enthusiasm." - Winston Churchill
+
+### What If You Are Not Selected?
+If you are not selected:
+* Do not get discouraged
+* Analyze what went wrong
+* Improve your preparation
+
+Apply again next year
+
+“Success consists of going from failure to failure without loss of enthusiasm.”
+— Winston Churchill
+
+## Final Advice
+* GSoC is not a sprint—it is a marathon.
+* Consistency, patience, curiosity, and genuine interest matter more than prior expertise.  ye bhi likhu kya
 
 ## Useful Links
 1. [An Introduction to Open Source](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)

@@ -212,6 +212,8 @@ This stage of searching won't be easy, so you have to be patient.
 
 First of all, you need to choose an organization (which might be doing work related to your interests) for that the best way is to visit [GSoC Archive](https://summerofcode.withgoogle.com/archive/) and see the completed projects and then visit the website of the organization and searching for GSoC projects. If you didn't find any of the projects listed, then you can contact the organization members and ask them about the projects. This process will take weeks, but it is a sure way you can find the projects of your interest. 
 
+You can make this search easier with [GSoC Organizations](https://gsocorganizations.xyz), which lets you filter organizations by technologies and topics, compare their participation history, and review past projects. Use it to build a shortlist before reading each organization's current ideas page and joining its community. If you are new to contributing, its 300+ beginner-focused issues provide practical starting points for learning the open-source workflow from scratch.
+
 Note - 
 
 * Don't forget to ask the organizations members whether they'll be taking part in the next GSoC or not.
